@@ -9,7 +9,7 @@ In this scenario, I have configured the pfSense DHCP server to automatically ass
 The DHCP server was enabled and configured through the pfSense web interface under **Services / DHCP Server / LAN**.
 
 <p align="left">
-  <img src="dhcp-server-images/dhcp server pfsense conf.png" width="60%">
+  <img src="dhcp-server-images/dhcp server pfsense conf.png" width="70%">
 </p>
 
 ## Validation
@@ -18,7 +18,7 @@ The Ubuntu Machine was configured to obtain its IP address automatically. The `i
 
 
 <p align="left">
-  <img src="dhcp-server-images/dhcp ubuntu ip assigned.png" width="60%">
+  <img src="dhcp-server-images/dhcp ubuntu ip assigned.png" width="70%">
 </p>
 
 The Ubuntu Machine successfully received the IP address `192.168.1.100` from the pfSense DHCP server.
