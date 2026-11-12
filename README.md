@@ -29,7 +29,7 @@ The lab consists of three virtual machines running in VirtualBox. pfSense acts a
 ### Network Topology
 
 <p align="left">
-  <img src="network-images/network-diagram.png" width="60%">
+  <img src="network-images/network-diagram.png" width="50%">
 </p>
 
 ## Virtual Machine Environment
