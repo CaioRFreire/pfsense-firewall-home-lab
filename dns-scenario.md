@@ -11,7 +11,7 @@ Accessed **Services → DNS Resolver → General Settings → Domain Overrides**
 The IP address was set to `127.0.0.1`, directing the configured domain to the local address.
 
 <p align="left">
-  <img src="dns-resolver-images/dns-resolver-pfsense-conf.png" width="60%">
+  <img src="dns-resolver-images/dns-resolver-pfsense-conf.png" width="70%">
 </p>
 
 ## Validation
@@ -19,13 +19,13 @@ The IP address was set to `127.0.0.1`, directing the configured domain to the lo
 Before applying the configuration, YouTube was accessible from the Ubuntu machine.
 
 <p align="left">
-  <img src="dns-resolver-images/dns-resolver-ubuntu-allow.png" width="60%">
+  <img src="dns-resolver-images/dns-resolver-ubuntu-allow.png" width="70%">
 </p>
 
 After applying it, YouTube stopped responding and displayed the message "Connect to the Internet"
 
 <p align="left">
-  <img src="dns-resolver-images/dns-resolver-ubuntu-block.png" width="60%">
+  <img src="dns-resolver-images/dns-resolver-ubuntu-block.png" width="70%">
 </p>
 
 ## Result
