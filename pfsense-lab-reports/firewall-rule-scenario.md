@@ -24,7 +24,7 @@ A port forwarding rule was created through the pfSense interface under **Firewal
 This configuration redirects any incoming TCP traffic received at the WAN address on port `4444` to port `80` of the Ubuntu machine (`192.168.1.100`).
 
 <p align="left">
-  <img src="nping-test-images/port-forwarding.png" width="60%">
+  <img src="nping-test-images/port-forwarding.png" width="70%">
 </p>
 
 ## 2. WAN Firewall Rule (PASS)
@@ -45,7 +45,7 @@ The rule was configured with the following parameters:
 This rule allows IPv4 TCP traffic from Kali Linux (`192.168.15.5`) to reach Ubuntu (`192.168.1.100`) through the WAN interface.
 
 <p align="left">
-  <img src="nping-test-images/nping-firewall-rules-before.png" width="60%">
+  <img src="nping-test-images/nping-firewall-rules-before.png" width="70%">
 </p>
 
 ## 3. TCP Traffic Test (PASS)
@@ -75,7 +75,7 @@ Wireshark was configured on Ubuntu to capture all network traffic through the In
 During the test performed at 19:10 UTC, Wireshark displayed 10 packets associated with the communication between Kali Linux and Ubuntu, corresponding to the five TCP probes sent and their five responses.
 
 <p align="left">
-  <img src="nping-test-images/nping-ubuntu-pass-rule.png" width="60%">
+  <img src="nping-test-images/nping-ubuntu-pass-rule.png" width="70%">
 </p>
 
 The first packet appeared in green, representing the first packet from Kali Linux to Ubuntu. The remaining packets alternated between red and black: red packets represented responses from Ubuntu to Kali Linux, while black packets represented traffic sent from Kali Linux to Ubuntu.
@@ -87,7 +87,7 @@ The capture also allowed inspection of the packet timestamps, source and destina
 The previously configured WAN firewall rule was modified by changing its action from Pass to Block, keeping the same parameters to prevent traffic originating from Kali Linux (`192.168.15.5`) from reaching Ubuntu (`192.168.1.100`).
 
 <p align="left">
-  <img src="nping-test-images/nping-firewall-rules-after.png" width="60%">
+  <img src="nping-test-images/nping-firewall-rules-after.png" width="70%">
 </p>
 
 ## 6. TCP Traffic Test (BLOCK)
@@ -108,7 +108,7 @@ Wireshark was kept running on Ubuntu, capturing all network traffic through the 
 During the test performed at 19:22, no packets corresponding to the Nping traffic from Kali Linux were observed reaching Ubuntu.
 
 <p align="left">
-  <img src="nping-test-images/nping-ubuntu-block-rule.png" width="60%">
+  <img src="nping-test-images/nping-ubuntu-block-rule.png" width="70%">
 </p>
 
 Since no display filter was applied, all captured network traffic was displayed. The analysis focused on identifying packets associated with the test based on their timestamps, source and destination IP addresses, protocol, and ports.
@@ -122,7 +122,7 @@ Logging was enabled for the WAN Block rule in pfSense, allowing the matching tra
 The firewall logs showed the packets being matched and blocked by the configured rule, confirming that pfSense was actively filtering the incoming traffic.
 
 <p align="left">
-  <img src="nping-test-images/nping-firewall-block-logs.png" width="60%">
+  <img src="nping-test-images/nping-firewall-block-logs.png" width="70%">
 </p>
 
 ## Test Results
