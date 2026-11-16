@@ -1,4 +1,4 @@
-# pfSense Network Security Lab
+# pfSense Firewall Network Home Lab
 
 A virtualized network security lab built with pfSense, Kali Linux, and Ubuntu Server to explore firewall configuration, network traffic filtering, and essential network services.
 
