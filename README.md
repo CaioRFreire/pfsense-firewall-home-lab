@@ -67,21 +67,21 @@ Used as the internal machine to obtain an IP address via DHCP, validate DNS filt
 - Configured DHCP through the pfSense web interface.
 - Enabled automatic IP address assignment for devices connected to the internal labnet network.
 
-[View Scenario 1](dhcp-scenario.md)
+[View Scenario 1](pfsense-lab-reports/dhcp-scenario.md)
 
 ### 2. DNS Resolver Configuration
 
 - Configured the DNS Resolver through the pfSense web interface.
 - Implemented DNS-based blocking of youtube.com for the Ubuntu machine.
 
-[View Scenario 2](dns-scenario.md)
+[View Scenario 2](pfsense-lab-reports/dns-scenario.md)
 
 ### 3. Firewall Traffic Filtering and Rule Configuration
 
 - Configured port forwarding through the pfSense web interface.
 - Created firewall rules to allow and block nping traffic originating from Kali Linux and targeting Ubuntu Server.
 
-[View Scenario 2](firewall-rule-scenario.md)
+[View Scenario 2](pfsense-lab-reports/firewall-rule-scenario.md)
 
 ### 4. Suricata IDS/IPS Configuration and Testing
 
@@ -89,7 +89,7 @@ Used as the internal machine to obtain an IP address via DHCP, validate DNS filt
 - Detected a TCP SYN scan generated from Kali Linux against Ubuntu using the `ET SCAN NMAP -sS window 1024` signature.
 - Enabled Legacy Mode automatic host blocking and verified that the Kali Linux source IP was added to the pfSense Blocked Hosts list.
 
-[View Scenario 4](04-suricata-ids-ips.md)
+[View Scenario 4](pfsense-lab-reports/suricata-scenario.md)
 
 ## Key Skills Demonstrated
 
