@@ -97,5 +97,8 @@ Used as the internal machine to obtain an IP address via DHCP, validate DNS filt
 - Firewall Configuration and Rule Management
 - Packet Filtering and Traffic Analysis
 - DHCP and DNS Configuration
+- Intrusion Detection and Prevention (IDS/IPS)
+- Suricata Configuration and Management
+- Security Alert Analysis
 - Virtualized Network Infrastructure
 - Network Troubleshooting
