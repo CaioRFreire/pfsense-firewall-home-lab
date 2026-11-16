@@ -12,6 +12,7 @@ A virtualized network security lab built with pfSense, Kali Linux, and Ubuntu Se
 - **Wireshark** - Used to verify if hping packets are reaching Ubuntu.
 - **DHCP and DNS Resolver** -  Services implemented.
 - **TCP/IP** - Protocol used.
+- **Suricata** - IDS and IPS.
 
 ## Lab Architecture
 
