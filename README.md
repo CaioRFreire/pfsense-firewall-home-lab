@@ -35,14 +35,6 @@ The lab consists of three virtual machines running in VirtualBox. pfSense acts a
 
 ## Virtual Machine Environment
 
-### Kali Linux
-
-Used as the external machine to generate controlled nping traffic targeting the Ubuntu Server.
-
-<p align="left">
-  <img src="pfsense-lab-reports/virtual-machine-images/kali-linux.png" width="80%">
-</p>
-
 ### pfSense Firewall
 
 Used as the network firewall to manage traffic between WAN and LAN interfaces and configure DHCP, DNS Resolver, port forwarding, and firewall rules through its web interface.
@@ -50,6 +42,14 @@ Used as the network firewall to manage traffic between WAN and LAN interfaces an
 <p align="left">
   <img src="pfsense-lab-reports/virtual-machine-images/pfsense.png" width="80%">
   <img src="pfsense-lab-reports/pf-sense-terminal/pfsense-after-instalation.png" width="80%">
+</p>
+
+### Kali Linux
+
+Used as the external machine to generate controlled nping traffic targeting the Ubuntu Server.
+
+<p align="left">
+  <img src="pfsense-lab-reports/virtual-machine-images/kali-linux.png" width="80%">
 </p>
 
 ### Ubuntu
