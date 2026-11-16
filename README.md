@@ -81,7 +81,7 @@ Used as the internal machine to obtain an IP address via DHCP, validate DNS filt
 - Configured port forwarding through the pfSense web interface.
 - Created firewall rules to allow and block nping traffic originating from Kali Linux and targeting Ubuntu Server.
 
-[View Scenario 2](pfsense-lab-reports/firewall-rule-scenario.md)
+[View Scenario 3](pfsense-lab-reports/firewall-rule-scenario.md)
 
 ### 4. Suricata IDS/IPS Configuration and Testing
 
