@@ -89,7 +89,7 @@ Suricata successfully detected the scanning activity and generated an alert matc
 The alert log recorded the TCP traffic originating from Kali Linux (`192.168.15.5`) and targeting Ubuntu (`192.168.1.100`). The event was classified as **Attempted Information Leak**, with Priority 2, confirming that the traffic matched the configured detection signature.
 
 <p align="left">
-  <img src="pf-sense-suricata/IDS-pfsense-alert.png" width="100%">
+  <img src="pf-sense-suricata/IDS-pfsense-alert.png" width="70%">
 </p>
 
 ## Intrusion Prevention Test (IPS)
@@ -107,7 +107,7 @@ The Nmap output remained similar to the IDS test, with the scanned ports reporte
 The pfSense Blocked Hosts page displayed the Kali Linux IP address (`192.168.15.5`) as an actively blocked host. The entry was associated with the detection signature **ET SCAN NMAP -sS window 1024** (SID: `2009582`), confirming that Suricata successfully triggered automatic host blocking.
 
 <p align="left">
-  <img src="pf-sense-suricata/IPS-pfsense-block.png" width="100%">
+  <img src="pf-sense-suricata/IPS-pfsense-block.png" width="70%">
 </p>
 
 ## Test Results
