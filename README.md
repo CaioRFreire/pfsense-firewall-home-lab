@@ -86,8 +86,8 @@ Used as the internal machine to obtain an IP address via DHCP, validate DNS filt
 ### 4. Suricata IDS/IPS Configuration and Testing
 
 - Deployed Suricata on pfSense and configured ET Open signatures to monitor WAN traffic.
-- Detected a TCP SYN scan generated from Kali Linux against Ubuntu using the `ET SCAN NMAP -sS window 1024` signature.
-- Enabled Legacy Mode automatic host blocking and verified that the Kali Linux source IP was added to the pfSense Blocked Hosts list.
+- Implemented IDS and detected a TCP SYN scan generated from Kali Linux against Ubuntu using the `ET SCAN NMAP -sS window 1024` signature.
+- Enabled IPS Legacy Mode automatic host blocking and verified that the Kali Linux source IP was added to the pfSense Blocked Hosts list.
 
 [View Scenario 4](pfsense-lab-reports/suricata-scenario.md)
 
