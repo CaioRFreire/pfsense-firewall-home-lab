@@ -1,4 +1,4 @@
-# 4. Suricata IDS/IPS Implementation
+# 4. Suricata IDS and IPS Implementation
 
 ## Objective
 
